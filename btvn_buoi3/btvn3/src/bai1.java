@@ -9,7 +9,7 @@ public class bai1 {
             int a = Integer.parseInt(sc.nextLine());
             System.out.println(Math.pow(a, 2));
         }
-        if (type.equals("Triangle")) {
+        else if (type.equals("Triangle")) {
             int a = Integer.parseInt(sc.nextLine());
             int b = Integer.parseInt(sc.nextLine());
             int c = Integer.parseInt(sc.nextLine());
@@ -20,7 +20,7 @@ public class bai1 {
                 System.out.println("-1");
             }
         }
-        if (type.equals("Circle")) {
+        else if (type.equals("Circle")) {
             int r = Integer.parseInt(sc.nextLine());
             System.out.println(Math.PI*Math.pow(r, 2));
         }
