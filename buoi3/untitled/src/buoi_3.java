@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class buoi_3 {
+public class buoi_3 {
+    public static void main(String[] args) {
+    }
 }

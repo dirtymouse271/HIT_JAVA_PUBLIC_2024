@@ -1,15 +1,12 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class bai3 {
     public static boolean kiemtra(int a, int b, int c, String d){
-        Scanner sc = new Scanner(System.in);
         if ((a+b ==c) && d.equals("Y")){
             return true;
         }
-        if ((a+b !=c) && d.equals("N")){
+        else if ((a+b !=c) && d.equals("N")){
             return true;
         }
         return false;

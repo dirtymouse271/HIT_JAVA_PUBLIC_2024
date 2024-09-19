@@ -15,8 +15,8 @@
                 if(i%2 != 0 && i < n-1){
                     a[i] = a[i] + Math.abs(a[i-1]-a[i+1]);
                 }
-                if(i == n-1){
-                    a[i] = a[i] +a[i-1];
+                if(i == n-1 && i%2 != 0){
+                    a[i] = a[i] + a[i-1];
                 }
             }
             for (int i = 0; i < n; i++){

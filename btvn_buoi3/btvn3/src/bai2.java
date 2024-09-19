@@ -1,6 +1,4 @@
-import java.util.Locale;
 import java.util.Scanner;
-
 public class bai2 {
     public static boolean kiemtra(String str){
         int left = 0;
